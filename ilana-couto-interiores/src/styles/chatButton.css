@@ -1,0 +1,19 @@
+.chatButton {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+  }
+  
+  .chatButton button {
+    background-color: #2e3d34;
+    color: #f5f5f5;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .chatButton button:hover {
+    background-color: #3b5041;
+  }
+  
