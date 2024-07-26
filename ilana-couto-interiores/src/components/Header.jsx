@@ -5,7 +5,7 @@ import logo from "../images/logo.png";
 class Header extends Component {
   render() {
     return (
-      <header className="header">
+      <header className="header fixed-top">
         <div className="logo">
           <img src={logo} alt="logo Ilana Couto Interiores" />
         </div>
@@ -18,16 +18,13 @@ class Header extends Component {
               <a href="#sobre-nos">sobre nós</a>
             </li>
             <li className="navItem">
-              <a href="#servicos">serviços</a>
+              <a href="#projetos">projetos</a>
             </li>
             <li className="navItem">
               <a href="#portfolio">portfólio</a>
             </li>
             <li className="navItem">
               <a href="#publicacoes">publicações</a>
-            </li>
-            <li className="navItem">
-              <a href="#blog">blog</a>
             </li>
             <li className="navItem">
               <a href="#contato">contato</a>

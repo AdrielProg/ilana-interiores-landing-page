@@ -3,23 +3,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4; 
-    height: 120px;
+    flex-wrap: wrap;
+    background: linear-gradient(to right,#2e3d34, #304237); 
+    height: 100px;
     box-sizing: content-box;
+    position: fixed;
 }
   .logo {
+    display: flex;
+    justify-content: flex-end;
     height: 100%;
     width: 150px;
     box-sizing: content-box;
   }
   .logo img{
     height: 100%;
+    width: auto;
   }
   
   .navList {
     list-style-type: none;
     display: flex;  
-    align-self: flex-end;
+    font-size: 1.1em;
     gap: 20px;
     padding-left: 20px;
     margin: 0;
@@ -27,11 +32,11 @@
   
   .navItem a {
     text-decoration: none;
-    color: #333; 
-    font-weight: bold;
+    color: lightgray; 
+    font-weight: 450;
   }
   
   .navItem a:hover {
-    color: #004400; 
+    color: rgb(7, 15, 5); 
   }
   
