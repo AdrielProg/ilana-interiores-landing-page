@@ -4,12 +4,15 @@ import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import ChatButton from "./components/ChatButton";
 import "../src/styles/App.css";
+import "../src/styles/responsive.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <header id="header">
+          <Header />
+        </header>
         <MainContent />
         <Footer />
         <ChatButton />

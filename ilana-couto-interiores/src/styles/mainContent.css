@@ -11,7 +11,8 @@
   .images {
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 2px;
+    justify-content: center;
+    gap: 40px;
 }
     
   .description {

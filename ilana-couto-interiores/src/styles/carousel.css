@@ -1,7 +1,7 @@
 
 .carousel-container {
     height: 100%; 
-    width: 850px;
+    width: 450px;
     margin: 0;
   }
   .carousel-item img {
@@ -11,9 +11,6 @@
     transition: transform 0.4s ease; 
   }
   
-  .carousel-wrapper {
-    flex: 3;
-}
 .carousel-item:active img,
 .carousel-item:focus img {
     transform: none; 
