@@ -1,29 +1,55 @@
-.footer {
+#footer {
+  background: linear-gradient(to right, #2e3d34, #304237);
+  padding: 50px 0;
+  color: lightgray;
+  text-align: center;
+}
+
+#footer .copyright {
+  margin: 0 0 15px;
+}
+
+#footer .socials a:hover {
+  background:  #65744a;
+  color: lightgray;
+}
+
+.socials {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.socials li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px;
+  }
+  
+  .socials a {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #325C2E;;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    padding: 2px;
+}
+
+.socials .fab {
+  line-height: 1;
+  }
+
+.copyright{
+  text-align: center;
+}
+  .socials ul{
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #f5f5f5; /* Cinza claro quase branco */
-    color: #2e3d34; /* Verde escuro */
-    position: fixed;
-    bottom: 0;
+    height: 80px;
     width: 100%;
+
   }
-  
-  .footer a {
-    color: #2e3d34;
-    text-decoration: underline;
-  }
-  
-  .agreeButton {
-    background-color: #2e3d34;
-    color: #f5f5f5;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-  }
-  
-  .agreeButton:hover {
-    background-color: #3b5041;
-  }
-  
