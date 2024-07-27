@@ -1,0 +1,28 @@
+#form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 250px;
+}
+  .form-label {
+    font-weight: bold;
+  }
+  
+.client-form{
+    background-color: rgb(153, 170, 121, 0.5);
+    color: #457357;
+    width: 450px;
+    height: 290px;
+}
+
+.btn{
+    background-color:#2e3d34 !important;
+    height: 40px;
+    max-width: 150px !important;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
