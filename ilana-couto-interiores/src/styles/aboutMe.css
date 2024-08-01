@@ -2,7 +2,6 @@
 
   
   #about-me h2 {
-    margin-bottom: 20px;
     font-size: 2.7em;
     font-weight: 700;
     color: #65744a;
@@ -18,15 +17,3 @@
   .row{
     max-width: 90%;
   }
-
-  .container-about-me{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    max-width: 100% !important;
-  }
-  .about-me-col{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}

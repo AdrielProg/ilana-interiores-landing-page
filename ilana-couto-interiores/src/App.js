@@ -18,7 +18,7 @@ class App extends Component {
         <header id="header">
           <Header />
         </header>
-        <main>
+        <main id="app-main">
           <AppHero id="hero-app" />
           <Home />
           <LogoPage />

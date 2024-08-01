@@ -34,11 +34,7 @@
 }
 
 .navbar-brand {
-  display: flex;
-  justify-content: center !important;
   height: 170px !important;
-  width: auto !important;
-  margin: 0 !important;
 }
 
 .navbar-brand img {

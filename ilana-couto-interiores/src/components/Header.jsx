@@ -3,18 +3,17 @@ import logo from "../images/logo.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Image from "react-bootstrap/Image";
 // Importante!
 import "../styles/header.css";
+import "../styles/responsive.css";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="header fixed-top bg-body-tertiary">
+    <Navbar expand="lg" className="header fixed-top">
       <Container>
-        <Navbar.Brand href="#inicio">
-          <Image src={logo} alt="logo Ilana Couto Interiores" fluid />
+        <Navbar.Brand href="#inicio" className="py-1 m-0">
+          <img src={logo} alt="logo Ilana Couto Interiores" fluid />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#inicio" className="text-uppercase fw-bold mx-2">
